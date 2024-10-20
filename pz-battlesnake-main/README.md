@@ -1,10 +1,5 @@
 # PZ-BattleSnake
 
-PettingZoo/Gym Multi-Agent Environment For [BattleSnake](https://play.battlesnake.com/)
-
-Documentation can be found here: [dabultz.github.io/pz-battlesnake/](https://dabultz.github.io/pz-battlesnake/)
-
-You are able to contribute to this project, read the [contributing guide](CONTRIBUTING.md) for more info
 
 ## Environments
 
@@ -15,9 +10,7 @@ You are able to contribute to this project, read the [contributing guide](CONTRI
 - [X] Arcade Maze (Used in Summer 2022 League)
 - [X] Easy to add new environments
 
-## Plans:
 
-To see the future plans/features, please see the following issue: [Future Plans (#12)](https://github.com/DaBultz/pz-battlesnake/issues/12)
 
 ## Project Organization
 

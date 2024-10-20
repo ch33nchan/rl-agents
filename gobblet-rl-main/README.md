@@ -1,7 +1,6 @@
 # gobblet-rl
 
 
-[![pages-build-deployment](https://github.com/elliottower/gobblet-rl/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/elliottower/gobblet-rl/actions/workflows/pages/pages-build-deployment)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/elliottower/gobblet-rl/main.svg)](https://results.pre-commit.ci/latest/github/elliottower/gobblet-rl/main)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PyPI version](https://badge.fury.io/py/gobblet-rl.svg?branch=master&kill_cache=1)](https://badge.fury.io/py/gobblet-rl) 
@@ -17,6 +16,8 @@ Allows for users to play in the same environment, and even play against RL agent
 
 </h1>
  
+
+<!--
 ## Installation
 
 ### Using pip (recommended)
@@ -101,7 +102,7 @@ This will launch a game with two basic agents choosing random actions. This file
 
 ### Command Line Arguments
 
-
+-->
 #### Game Modes
 
 All scripts besides`example_basic.py` (no support for interactive play) take the following arguments:
@@ -157,7 +158,7 @@ _______|_______|_______  _______|_______|_______  _______|_______|_______
   -    |   -   |   -       -    |   -   |   -       -    |   -   |   -6  
        |       |                |       |                |       |       
 ```
-
+<!--
 
 ## Testing
 
@@ -168,3 +169,4 @@ git clone https://github.com/elliottower/gobblet-rl.git
 cd gobblet-rl
 pytest
 ```
+-->

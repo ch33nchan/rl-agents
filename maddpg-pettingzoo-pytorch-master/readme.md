@@ -30,4 +30,3 @@ or simply run `python main.py --help`, `python evaluate.py --help`
 
 - implementation of [openai](https://github.com/openai/maddpg)
 - implementation of [shariqiqbal2810](https://github.com/openai/maddpg)
-- [maddpg-mpe-pytorch](https://github.com/Git-123-Hub/maddpg-mpe-pytorch)

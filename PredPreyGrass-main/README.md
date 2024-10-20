@@ -29,7 +29,7 @@ Predator-Prey-Grass gridworld deploying multi-objective and multi-agent environm
 The rewards returned by the environment are stored in a two-dimensional vector conform Farama's [Momaland](https://momaland.farama.org/) framework, which follows the standard [PettingZoo API](https://pettingzoo.farama.org/). This environment is a generalization of the single objective version described above and offers the opportunity to go beyond naively summing rewards and permits the possibility of implementing predefined (possibly non-linear) utility functions for every seperate learning agent.
 
 ## Emergent Behaviors
-Training the single onbjective environment [**mo_predpregrass_v0.py**](https://github.com/doesburg11/PredPreyGrass/tree/main/predpreygrass/envs/_mo_predpreygrass_v0) with the PPO algorithm is an example of how elaborate behaviors can emerge from simple rules in agent-based models. In the above displayed MARL example, rewards for learning agents are solely obtained by reproduction. So all other reward options are set to zero in the [environment configuration](https://github.com/doesburg11/PredPreyGrass/blob/main/predpreygrass/envs/_so_predpreygrass_v0/config/so_config_predpreygrass.py). Despite these relative sparse reward structure, maximizing these rewards results in elaborate emerging behaviors such as: 
+Training the single onbjective environment [**mo_predpregrass_v0.py**] with the PPO algorithm is an example of how elaborate behaviors can emerge from simple rules in agent-based models. In the above displayed MARL example, rewards for learning agents are solely obtained by reproduction. So all other reward options are set to zero in the [environment configuration]. Despite these relative sparse reward structure, maximizing these rewards results in elaborate emerging behaviors such as: 
 - Predators hunting Prey 
 - Prey finding and eating grass 
 - Predators hovering around grass to catch Prey 
@@ -43,7 +43,7 @@ Moreover, these learning behaviors lead to more complex emergent dynamics at the
 
 More emergent behavior and findings are described [on our website](https://www.behaviorpatterns.info/predator-prey-grass-project/).
 
-
+<!--
 ## Installation
 
 **Editor used:** Visual Studio Code 1.93.1 on Linux Mint 21.3 Cinnamon
@@ -109,7 +109,7 @@ To evaluate and visualize after training follow instructions in:
 Batch training and evaluating in one go:
 
 ```predpreygrass/optimizations/so_predpreygrass_v0/evaluation/so_parameter_variation_train_ppo_and_evaluate.py```
-
+-->
 ## References
 
 - [Terry, J and Black, Benjamin and Grammel, Nathaniel and Jayakumar, Mario and Hari, Ananth and Sullivan, Ryan and Santos, Luis S and Dieffendahl, Clemens and Horsch, Caroline and Perez-Vicente, Rodrigo and others. Pettingzoo: Gym for multi-agent reinforcement learning. 2021-2024](https://pettingzoo.farama.org/)    
